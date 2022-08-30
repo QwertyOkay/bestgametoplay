@@ -25,5 +25,27 @@
 }
 
 .nav-mob {
-  background-color: rgba(166, 142, 61, 0.3803921569) !important;
+  /*     background-color: #a68e3d61!important;
+   */ /*  background: rgb(238,174,202,0.6867121848739496); */
+  background: linear-gradient(180deg, rgba(166, 142, 61, 0.3803921569) 87%, rgba(166, 142, 61, 0) 100%);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.price-prod {
+  color: #b17062;
+  font-weight: 500;
+  font-size: large;
+}
+
+.heading-prod {
+  font-size: large;
+  color: rgba(253, 150, 2, 0.9215686275);
+}
+
+.card-color {
+  background-color: lightgoldenrodyellow;
+  /* background-color: antiquewhite; */
 }/*# sourceMappingURL=main.css.map */
