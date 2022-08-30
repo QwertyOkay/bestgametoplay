@@ -15,7 +15,7 @@
 
 .mobile-bg2 {
   background-image: url(../img/hero.jpg);
-  height: 61vh;
+  height: 66vh;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -37,7 +37,37 @@
 @media screen and (min-width: 1200px) {
   .mobile-bg3 {
     background-image: url(../img/hero.jpg);
-    height: 84vh;
+    height: 83vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.mobile-bg4 {
+  background-image: url(../img/hero.jpg);
+  /* height: 66vh; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1200px) {
+  .mobile-bg4 {
+    background-image: url(../img/hero.jpg);
+    /*  height: 84vh;  */
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.mobile-bg5 {
+  background-image: url(../img/hero.jpg);
+  height: 61vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1200px) {
+  .mobile-bg5 {
+    background-image: url(../img/hero.jpg);
+    height: 83vh;
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -60,6 +90,20 @@
   background: linear-gradient(180deg, rgba(184, 160, 129, 0.63) 87%, rgba(166, 142, 61, 0) 100%);
 }
 
+.nav-header {
+  width: 125px;
+  background-color: burlywood;
+  position: absolute;
+  border: 0.5px solid;
+}
+@media screen and (min-width: 1200px) {
+  .nav-header {
+    width: 182px;
+    background-color: burlywood;
+    position: absolute;
+  }
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -78,4 +122,22 @@
 .card-color {
   background-color: lightgoldenrodyellow;
   /* background-color: antiquewhite; */
+}
+
+.margin-top {
+  margin-top: 63px;
+}
+@media screen and (min-width: 1200px) {
+  .margin-top {
+    margin-top: 31px;
+  }
+}
+
+.margin-top2 {
+  margin-top: 45px;
+}
+@media screen and (min-width: 1200px) {
+  .margin-top2 {
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */

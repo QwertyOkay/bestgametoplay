@@ -14,7 +14,7 @@
 
 .mobile-bg2 {
     background-image: url(../img/hero.jpg);
-    height: 61vh;
+    height: 66vh;
     background-size:100%; 
     background-repeat: no-repeat;
 
@@ -34,7 +34,35 @@
 
     @media screen and (min-width: 1200px) { 
     background-image: url(../img/hero.jpg); 
-    height: 84vh; 
+    height: 83vh; 
+    background-size:100%; 
+    background-repeat: no-repeat;       
+    }
+}
+
+.mobile-bg4 {
+    background-image: url(../img/hero.jpg);
+    /* height: 66vh; */
+    background-size:100%; 
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1200px) { 
+    background-image: url(../img/hero.jpg); 
+   /*  height: 84vh;  */
+    background-size:100%; 
+    background-repeat: no-repeat;       
+    }
+}
+
+.mobile-bg5 {
+    background-image: url(../img/hero.jpg);
+    height: 61vh; 
+    background-size:100%; 
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1200px) { 
+    background-image: url(../img/hero.jpg); 
+    height: 83vh;  
     background-size:100%; 
     background-repeat: no-repeat;       
     }
@@ -53,6 +81,20 @@
 /*     background-color: #a68e3d61!important;
  */   /*  background: rgb(238,174,202,0.6867121848739496); */
     background: linear-gradient(180deg, rgb(184 160 129 / 63%) 87%, rgba(166, 142, 61, 0) 100%);
+}
+
+.nav-header {
+    width: 125px;
+    background-color: burlywood;
+    position: absolute;
+    border: 0.5px solid;
+
+    @media screen and (min-width: 1200px) { 
+        width: 182px;
+    background-color: burlywood;
+    position: absolute;
+    }
+    
 }
 
 ::-webkit-scrollbar {
@@ -74,4 +116,17 @@
 .card-color {
     background-color: lightgoldenrodyellow;
      /* background-color: antiquewhite; */
+}
+
+.margin-top{
+    margin-top: 63px;
+    @media screen and (min-width: 1200px) { 
+    margin-top: 31px;
+    }
+}
+.margin-top2{
+    margin-top: 45px;
+    @media screen and (min-width: 1200px) { 
+    margin-top: 10px;
+    }
 }
