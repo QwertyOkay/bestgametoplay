@@ -13,6 +13,36 @@
   }
 }
 
+.mobile-bg2 {
+  background-image: url(../img/hero.jpg);
+  height: 61vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1200px) {
+  .mobile-bg2 {
+    background-image: url(../img/hero.jpg);
+    height: 84vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.mobile-bg3 {
+  background-image: url(../img/hero.jpg);
+  height: 66vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1200px) {
+  .mobile-bg3 {
+    background-image: url(../img/hero.jpg);
+    height: 84vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
 .mob-h1 {
   display: flex;
   justify-content: center;
