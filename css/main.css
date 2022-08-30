@@ -73,6 +73,21 @@
   }
 }
 
+.mobile-bg6 {
+  background-image: url(../img/hero.jpg);
+  height: 24vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1200px) {
+  .mobile-bg6 {
+    background-image: url(../img/hero.jpg);
+    height: 81vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
 .mob-h1 {
   display: flex;
   justify-content: center;
