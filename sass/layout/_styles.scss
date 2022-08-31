@@ -20,7 +20,7 @@
 
     @media screen and (min-width: 1200px) { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg); 
-    height: 85vh; 
+    height: 85.5vh; 
     background-size:100%; 
     background-repeat: no-repeat;       
     }
@@ -104,7 +104,7 @@
 
     @media screen and (min-width: 1200px) { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg); 
-    height: 85vh; 
+    height: 85.5vh; 
     background-size:100%; 
     background-repeat: no-repeat;       
     }
@@ -118,7 +118,7 @@
 
     @media screen and (min-width: 1200px) { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg); 
-    height: 85vh;
+    height: 85.5vh;
     background-size:100%; 
     background-repeat: no-repeat;       
     }
@@ -248,4 +248,31 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
+}
+
+.padding-mob {
+    padding-top:2rem;
+    padding-bottom:15rem;
+    @media screen and (min-width: 1200px) { 
+        padding-top:2rem;
+        padding-bottom:7rem; 
+    }
+}
+
+.padding-mob2 {
+    padding-top:2rem;
+    padding-bottom:14rem;
+    @media screen and (min-width: 1200px) { 
+        padding-top:1rem;
+        padding-bottom:1rem; 
+    }
+}
+
+.padding-mob3 {
+    padding-top:2rem;
+    padding-bottom:19rem;
+    @media screen and (min-width: 1200px) { 
+        padding-top:0.5rem;
+        padding-bottom:2rem; 
+    }
 }
