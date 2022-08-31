@@ -22,6 +22,7 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
+  font-family: "Noto Sans", sans-serif;
 }
 
 /*
@@ -32,11 +33,6 @@ Sections
 1. Remove the margin in all browsers.
 2. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
-body {
-  margin: 0; /* 1 */
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; /* 2 */
-}
-
 /*
 Grouping content
 ================
@@ -77,7 +73,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; /* 1 */
+  font-family: "Noto Sans", sans-serif; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -502,4 +498,8 @@ summary {
 
 .is-hidden {
   display: none;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
 }/*# sourceMappingURL=main.css.map */
