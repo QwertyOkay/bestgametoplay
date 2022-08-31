@@ -239,14 +239,14 @@ summary {
 }
 
 .mobile-bg {
-  background-image: url(../img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg);
   height: 14vh;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 1200px) {
   .mobile-bg {
-    background-image: url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg);
     height: 53vh;
     background-size: 100%;
     background-repeat: no-repeat;
