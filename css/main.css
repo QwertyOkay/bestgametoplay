@@ -240,14 +240,14 @@ summary {
 
 .mobile-bg {
   background-image: url(../img/hero.jpg);
-  height: 26vh;
+  height: 14vh;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 1200px) {
   .mobile-bg {
     background-image: url(../img/hero.jpg);
-    height: 84vh;
+    height: 53vh;
     background-size: 100%;
     background-repeat: no-repeat;
   }
