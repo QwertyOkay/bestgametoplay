@@ -164,11 +164,21 @@
     color: #b17062;
     font-weight: 500;
     font-size: large;
+}
 
+.price-prod2 {
+    color: #b17062;
+    font-weight: 500;
+    font-size: xx-large;
 }
 
 .heading-prod {
     font-size: large;
+    color: #fd9602eb;
+}
+
+.heading-prod2 {
+    font-size: xx-large;
     color: #fd9602eb;
 }
 
@@ -196,4 +206,42 @@
     @media screen and (min-width: 1200px) { 
     font-size: 18px;   
     }
+}
+
+.modal__backdrop6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    height: 100%;
+    width: 100%;
+    transition-property: opacity, visibility;
+    background-color: rgba(0, 0, 0, 0.62);
+    opacity: 1;
+    visibility: visible;
+}
+.modal__backdrop6.is-hidden6 {
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.modal__backdrop6.is-hidden6>.modal6 {
+    transform: translate(-50%, -50%) scale(2.9);
+    opacity: 0;
+}
+
+
+.modal__close6 {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    color: rgb(247, 251, 10);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.is-hidden {
+    display: none;
 }
