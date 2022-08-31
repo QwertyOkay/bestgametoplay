@@ -14,13 +14,13 @@
 
 .mobile-bg2 {
     background-image: url(../img/hero.jpg);
-    height: 66vh;
+    height: 70.5vh;
     background-size:100%; 
     background-repeat: no-repeat;
 
     @media screen and (min-width: 1200px) { 
     background-image: url(../img/hero.jpg); 
-    height: 84vh; 
+    height: 85vh; 
     background-size:100%; 
     background-repeat: no-repeat;       
     }
@@ -62,7 +62,7 @@
 
     @media screen and (min-width: 1200px) { 
     background-image: url(../img/hero.jpg); 
-    height: 83vh;  
+    height: 85vh;  
     background-size:100%; 
     background-repeat: no-repeat;       
     }
@@ -81,6 +81,49 @@
     background-repeat: no-repeat;       
     }
 }
+
+.mobile-bg7 {
+    background-image: url(../img/hero.jpg);
+    height: 65vh;
+    background-size:100%; 
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1200px) { 
+    background-image: url(../img/hero.jpg); 
+    height: 85vh;  
+    background-size:100%; 
+    background-repeat: no-repeat;       
+    }
+}
+
+.mobile-bg8 {
+    background-image: url(../img/hero.jpg);
+    height: 66vh;
+    background-size:100%; 
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1200px) { 
+    background-image: url(../img/hero.jpg); 
+    height: 85vh; 
+    background-size:100%; 
+    background-repeat: no-repeat;       
+    }
+}
+
+.mobile-bg9 {
+    background-image: url(../img/hero.jpg);
+    /* height: 66vh; */
+    background-size:100%; 
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1200px) { 
+    background-image: url(../img/hero.jpg); 
+    height: 85vh;
+    background-size:100%; 
+    background-repeat: no-repeat;       
+    }
+}
+
 
 .mob-h1 {
     display: flex;
